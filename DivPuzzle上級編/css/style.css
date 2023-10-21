@@ -6,7 +6,7 @@ header{
   background: #ff0000;
   position: relative;
 }
-header ul{
+.boxes{
   list-style: none;
   background: #ffffff;
   position: absolute;
@@ -14,21 +14,18 @@ header ul{
   right: 20px;
   padding: 10px;
 }
-header ul::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-header li{
+
+.box{
   width: 40px;
   height: 40px;
   background-color: #a9004b;
   float: left;
   margin-left:10px;
 }
-.first{
-  margin-left:0;
+.box:nth-child(1){
+  margin-left: 0;
 }
+
 
 /* -------------------------------------- */
 
@@ -39,34 +36,34 @@ header li{
   clear: both;
 }
 
-.leftbox{
+.left-side{
   width: 150px;
   height: 250px;
   background: #00ff51;
   float: left;
-
 }
-.rightbox{
+.right-side{
   width: 250px;
   height: 250px;
   background: #8c2727;
   position: relative;
   float: left;
 }
-.rightbox ul{
+.right-boxes{
   position: absolute;
   top: 40px;
   left: 40px;
   list-style: none;
 }
-.rightbox li{
+.rightbox{
   width: 140px;
   height: 40px;
   background: #ff863f;
   border: 5px solid #ffffff;
-}
-.rightbox li:nth-child(2){
   margin: 10px 0;
+}
+.rightbox:nth-child(1){
+  margin-top: 0;
 }
 
 /* -------------------------------------- */
