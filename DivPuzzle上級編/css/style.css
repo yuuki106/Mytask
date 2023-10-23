@@ -60,7 +60,7 @@ header{
   height: 40px;
   background: #ff863f;
   border: 5px solid #ffffff;
-  margin: 10px 0;
+  margin-top: 10px;
 }
 .rightbox:nth-child(1){
   margin-top: 0;
