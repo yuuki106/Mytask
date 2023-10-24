@@ -61,6 +61,7 @@ header{
   background: #ff863f;
   border: 5px solid #ffffff;
   margin-top: 10px;
+  box-sizing: content-box;
 }
 .rightbox:nth-child(1){
   margin-top: 0;
